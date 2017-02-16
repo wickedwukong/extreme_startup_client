@@ -7,7 +7,7 @@ version := "0.0.1"
 scalaVersion := "2.11.5"
 
 libraryDependencies ++= Seq(
-  "io.dropwizard" % "dropwizard-core" % "1.0.0" withSources() withJavadoc(),
+  "com.sparkjava" % "spark-core" % "2.5.5" withSources() withJavadoc(),
   "org.scalatra" %% "scalatra" % "2.4.1",
   "org.eclipse.jetty" % "jetty-server" % "9.4.0.v20161208",
   "org.eclipse.jetty" % "jetty-util" % "9.4.0.v20161208",
